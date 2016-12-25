@@ -8,12 +8,12 @@ permalink:           /:title
 
 
 # Setup
-timezone:            your timezone # eg. Asia/Kathmandu
-locale:              your locale language # eg. en_us
-name:				         site name
-title:               site title
-tagline:             'tagline'
-description:         'description'
+timezone:            asia/hanoi # eg. Asia/Kathmandu
+locale:              vi_VN # eg. en_us
+name:				 Dung Tao (taomanhdung)
+title:               taomanhdung
+tagline:             'Software Developer - Tennis Lover'
+description:         'Personal website of Dung Tao, Software Developer - Tennis Lover'
 url:                 site url
 rss:                 rss feed url
 baseurl:             '/'
@@ -21,13 +21,13 @@ baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
+icon:                '/assets/images/td-logo.png' # [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
-  name:           	 your name
-  url:            	 your site url
-  facebook:          username
+  name:           	 Tao Manh Dung
+  url:            	 taomanhdung.com
+  facebook:          manhdung.niit
   twitter:           username
   google_plus:       username
   linkedin:          username
@@ -35,12 +35,12 @@ author:
   pinterest:         username
   kiva:              username
 
-fb_admins:           your facebook profile id
+fb_admins:           manhdung.niit
 fb_appid:            your facebook app id
 
 # Server
 destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "LICENSE","CNAME", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
 port:             	 9001
 
 defaults:
