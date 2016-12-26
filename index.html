@@ -18,39 +18,18 @@ title: Tao Manh Dung
     </div>
   </section>
 
+  {% include aboutme.html %}
+
+  <!--{% include aboutme-detail.html %}-->
+
+  <!--{% include theysay.html %}-->
+
+  <!--{% include portfolio.html %}-->
+
+  <!--{% include blogs.html %}-->
 
   <footer class="section--footer">
     © 2016 Made by <strong>Dung Tao</strong> with <div class="icon-heart heart-beating"></div>
   </footer>
 </article>
 
-
-<!--<section class="section&#45;&#45;postsWrapper">-->
-  <!--<div class="container">-->
-    <!--<div class="blockGroup">-->
-      <!--<ul class="blockGroup-list">-->
-        <!--{% for post in site.posts %}-->
-          <!--<li class="block">-->
-            <!--<div class="postArticle-wrapper">-->
-              <!--<article class="postArticle postArticle&#45;&#45;short">-->
-                <!--{% if post.image.feature %}-->
-                  <!--<a href="{{ post.url }}">-->
-                    <!--<div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">-->
-                    <!--</div>-->
-                  <!--</a>-->
-                <!--{% else %}-->
-                <!--<a href="{{ post.url }}">-->
-                  <!--<div class="postArticle-image" style="background-image:url('{{site.baseurl}}assets/images/logo-black.svg')">-->
-                  <!--</div>-->
-                <!--</a>-->
-                <!--{% endif %}-->
-                <!--<a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>-->
-              <!--</article>-->
-              <!--<div class="block-postMeta">{{ post.date | date_to_string }}</div>-->
-            <!--</div>-->
-          <!--</li>-->
-        <!--{% endfor %}-->
-      <!--</ul>-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</section>-->

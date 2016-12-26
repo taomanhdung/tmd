@@ -1,10 +1,10 @@
 
 # Syntax highlighting
-markdown:            redcarpet
+#markdown:            redcarpet
 highlighter:         pygments
 
-# Permalinks
-permalink:           /:title
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:           /:categories/:title/
 
 
 # Setup

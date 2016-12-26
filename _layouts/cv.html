@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="cv">
+    <div class="container container--content">
+        <div class="content-body">
+        	{{ content }}
+        </div>
+    </div>
+    <a href="/cv.pdf" target="_blank"><button id="btnDownloadCV" class="button">Download CV</button></a>
+	<br/>
+	
+	<hr/>
+
+	{% include aboutme.html %}
+</article>
+<footer class="section--footer">
+    © 2016 Made by <strong>Trung Ho</strong> with
+    <div class="icon-heart heart-beating"></div>
+</footer>
+<script type="text/javascript">
+    document.querySelector('.brand-name-container').className += ' hide-on-mobile';
+</script>
