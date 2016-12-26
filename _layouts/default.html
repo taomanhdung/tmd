@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us" class="no-js">
+<html lang="en" prefix="op: http://media.facebook.com/op#">
+{% include head.html %}
+<body>
+<div class="brand-name-container">
+    <div class="brand-name-bg">
+    </div>
+    <a href="{% if page.url == '/' %}/#top{% else %}/{% endif %}" class="brand-name no-hyphens">
+        <span data-hover="Tao">Tao</span><span>Manh</span><span data-hover="Dung">Dung</span>
+    </a>
+</div>
 
-  {% include head.html %}
+<a name="top"></a>
 
-  <body>
-    {% if page.url != '/index.html' %}
-      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-      {% include sidebar-nav.html %}
-      {% include menu.html %}
-    {% endif %}
+{{ content }}
 
-    {{ content }}
-
-    {% if page.url != '/index.html' %}
-      {% include sidebar-toggle.html %}
-    {% endif %}
-
-    {% if page.url == '/index.html' %}
-      {% include subscribe.html %}
-      {% include footer.html %}
-    {% endif %}
-
-    {% include footer-scripts.html %}
-  </body>
+{% include footer-scripts.html %}
+</body>
 </html>

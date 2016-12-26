@@ -14,13 +14,14 @@ name:				 Dung Tao (taomanhdung)
 title:               taomanhdung
 tagline:             'Software Developer - Tennis Lover'
 description:         'Personal website of Dung Tao, Software Developer - Tennis Lover'
-url:                 site url
+url:
 rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
+avatar:              '/assets/images/avatar/dungtao.jpg'
 icon:                '/assets/images/td-logo.png' # [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
@@ -41,7 +42,7 @@ fb_appid:            your facebook app id
 # Server
 destination:      	 ./_site
 exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "LICENSE","CNAME", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
+port:             	 8888
 
 defaults:
   -
